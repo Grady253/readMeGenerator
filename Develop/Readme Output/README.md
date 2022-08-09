@@ -1,6 +1,7 @@
-# Project Name
+# Title
 
 ## Description
+For this project, 
 
 ## Table of Content
 | [Installation](#installation) |
@@ -13,17 +14,18 @@
 [test](#test) |
 
 ## Installation
+ The steps to install the application is .
 
 ## Usage 
 
 ## Credits
+ My Github is: .
+ My email is: .
 
 ## License
 
 ## Badges
 
 ## Features
-
-## Contributors
 
 ## Test
