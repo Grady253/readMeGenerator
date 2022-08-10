@@ -47,6 +47,7 @@ const questions = [
       {
         type: "list",
         message: "What packages would you like to use?",
+        choice: ["MIT","ISC","Mozzilla","IBM"],
         name: "license",
       },
 
@@ -70,7 +71,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFile("README.md", readMe, (err) => {
+  fs.writeFile("./Develop/OUTPUT.md", readMe, (err) => {
     err? console.error(err): console.log("Worked!");
   });
 }
