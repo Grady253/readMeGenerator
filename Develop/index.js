@@ -69,7 +69,7 @@ function init() {
           name: "license",
           type: "list",
           message: "What license would you like to use?",
-          choices: ["MIT","ISC","Mozzilla","IBM"],
+          choices: ["MIT","ISC","Mozzilla","IBM", "N/A"],
         },
 
         {

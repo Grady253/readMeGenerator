@@ -27,7 +27,7 @@ function renderLicenseLink(license) {
     return `https://opensource.org/licenses/IPL-1.0`
   }
 
-  if (!license){
+  if (license === "N/A"){
     return ``
   }
 };
