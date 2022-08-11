@@ -68,8 +68,11 @@ function generateMarkdown(data) {
  ${data.usage}
 
  ## Credits
-[my Github:](https://www.github.com/${data.github}).
+ [my Github:](https://www.github.com/${data.github}).
  [My email:](mailto:${data.email}).
+
+ ## Instructions
+ ${data.instructions}
 
  ## License
  ${renderLicenseSection(data.license)}
@@ -78,9 +81,10 @@ function generateMarkdown(data) {
  ## Badges
  ${renderLicenseBadge(data.license)}
 
- ## Features
-
  ## Test
+
+ ## Questions
+ ${data.questions}
 
 `;
 };

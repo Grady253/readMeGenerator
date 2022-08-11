@@ -38,7 +38,7 @@ function init() {
         {
           name: "usage",
           type: "input",
-          message: "How is your application used?",
+          message: "Upload photo and/or video here.",
         },
   
         {
@@ -70,6 +70,12 @@ function init() {
           type: "list",
           message: "What license would you like to use?",
           choices: ["MIT","ISC","Mozzilla","IBM"],
+        },
+
+        {
+          name:"questions",
+          type:"input",
+          message:"Do you have any questions?"
         }
       ])
       .then((response) => {
